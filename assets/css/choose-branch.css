@@ -1,0 +1,100 @@
+.branch-breadcrumb{
+    height: 20vh;
+    width: 100%;
+    background-image: url(../images/home-bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.branch-breadcrumb nav{
+    z-index: 5;
+    color: var(--white-color) !important;
+    position: absolute;
+    top: 40%;
+
+}
+.branch-breadcrumb nav p{
+    font-size: 1.1rem;
+}
+.breadcrumb-item.active {
+    color: #f8f8f8;
+    opacity: 0.8;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: transparent;
+}
+
+.branches{
+    height: 85vh;
+    position: relative;
+}
+
+.breadcrumb-overlay{
+position: absolute;
+left: 0;
+top: 0;
+background-color: rgba(0, 0, 0, 0.5);
+width: 100%;
+height: 100%;
+z-index: 2;
+
+}
+
+.branche-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    padding: 0 100px;
+  
+    
+}
+
+.branch-item{
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+.open-btn{
+    background-color: #d5e9d6;
+    color: green;
+    padding: 10px 20px;
+}
+.open-btn:hover{
+    color: green;
+    opacity: .8;
+}
+.branch-contact{
+    background-color: #EEEEEE;
+    padding: 5px 7px;
+}
+.branch-contacts  a:nth-child(4) i{
+    background-color: #03a9f4;
+    color: white !important;
+    padding: 5px;
+}
+
+.branch-contacts  a:nth-child(2) i{
+   color: #c32aa3;
+   font-size: 1.3rem;
+}
+
+/* password verify */
+.phone-verify{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px !important;
+    display: none;
+  }
+  .phone-verify-btn a{
+    width: 335px !important;
+  }
+  /* ../password verify */
+/*all media query */
+@media (max-width: 776px) {
+    .branche-content{
+        padding: 0 10px;
+    }
+    
+}
