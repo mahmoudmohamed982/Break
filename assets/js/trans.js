@@ -7,6 +7,30 @@ const translations = {
         custimizeBranchHeader:"Select The Branch From Which You Want To Receive The Order  ",
         breadCrumbHome:"Home",
         breadCrumbBranch:" / Branch ",
+        breadCrumbOrders:" / Orders",
+        branchName:"Reyad - Saudia",
+        categories:"categories",
+        all:"All",
+        productCat:"donuts",
+        productName:"donuts",
+        productText:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+        bill:"Bill",
+        productPrice:"7 SAR",
+        discountText:"discount percentage",
+        percentage:"20%",
+        totalText:"Total",
+        totalAmount:"20 SAR",
+        addedTax:"Including value added tax",
+        completion:"completion",
+        productName:"product name",
+        remove:"remove",
+        recieveFrom:"recieve from",
+        recieveFromBranch:"recieve from branch",
+        refundText:"You have a refund ",
+        refundAmount:"20 SAR",
+        viewDetails:"view details",
+        orderNumber:"order 3232",
+        breadCrumbUser:" / my account",
 
     },
     ar: {
@@ -17,6 +41,31 @@ const translations = {
         custimizeBranchHeader:"حدد الفرع الذي تريد استلام الطلب منه",
         breadCrumbHome:"الصفحة الرئيسية",
         breadCrumbBranch:" / الفرع",
+        breadCrumbOrders:" / الطلبات",
+        branchName:"الرياض - السعودية",
+        categories:"الأصناف",
+        all:"الكل",
+        productCat:"دوناتس",
+        productName:"دوناتس",
+        productText:"بعض الأمثلة السريعة للنصوص للبناء على عنوان البطاقة وتشكيل الجزء الأكبر من محتوى البطاقة.",
+        bill:"الفاتورة",
+        productPrice:"7 ريال ",
+        discountText:"نسبة الخصم",
+        percentage:"20%",
+        totalText:"المجموع",
+        totalAmount:"20 ريال",
+        addedTax:"بما في ذلك ضريبة القيمة المضافة",
+        completion:"تطبيق",
+        productName:"أسم المنتج",
+        remove:"حذف",
+        recieveFrom:"استلم من",
+        recieveFromBranch:" استلم من الفرع",
+        refundText:"لديك رصيد مسترجع",
+        refundAmount:"20 ريال",
+        viewDetails:"عرض التفاصيل ",
+        orderNumber:"طلب رقم 3232",
+        breadCrumbUser:" / حسابي",
+
     },
 };
 
@@ -50,7 +99,7 @@ const setLanguage = (language) => {
     if (language === "ar") {
         document.dir = "rtl";
         document.body.style.textAlign = 'right';
-        document.body.style.fontFamily = 'Montserrat';
+        document.body.style.fontFamily = 'Tajawal';
         document.getElementById("select_ar").selected = true;
 
     } else {

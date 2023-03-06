@@ -1,44 +1,11 @@
-.branch-breadcrumb{
-    height: 20vh;
-    width: 100%;
-    background-image: url(../images/home-bg.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-.branch-breadcrumb nav{
-    z-index: 5;
-    color: var(--white-color) !important;
-    position: absolute;
-    top: 40%;
 
-}
-.branch-breadcrumb nav p{
-    font-size: 1.1rem;
-}
-.breadcrumb-item.active {
-    color: #f8f8f8;
-    opacity: 0.8;
-}
-.breadcrumb-item+.breadcrumb-item::before {
-    color: transparent;
-}
 
 .branches{
     height: 85vh;
     position: relative;
 }
 
-.breadcrumb-overlay{
-position: absolute;
-left: 0;
-top: 0;
-background-color: rgba(0, 0, 0, 0.5);
-width: 100%;
-height: 100%;
-z-index: 2;
 
-}
 
 .branche-content{
     position: absolute;

@@ -63,7 +63,67 @@ a:focus {
 i {
   cursor: pointer;
 }
+.pointer{
+    cursor: pointer;
+}
+.w-20px{
+  width: 20px;
+}
 
+.bg-gray{
+  background-color: #f8f8f8;
+}
+.bg-main{
+  background-color: var(--main-color);
+color: var(--white-color);
+}
+.color-main{
+  color: var(--main-color);
+}
+.opacity{
+  opacity: 0.8;
+}
+.bg-main:hover{
+  color: var(--white-color);
+}
+.h-100vw{
+  height: 100vw;
+}
+.branch-breadcrumb{
+  height: 20vh;
+  width: 100%;
+  background-image: url(../images/home-bg.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.branch-breadcrumb nav{
+  z-index: 5;
+  color: var(--white-color) !important;
+  position: absolute;
+  top: 40%;
+
+}
+.branch-breadcrumb nav p{
+  font-size: 1.1rem;
+}
+.breadcrumb-item.active {
+  color: #f8f8f8;
+  opacity: 0.8;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+display: none;
+}
+.breadcrumb-overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  
+  }
 /* ../general tags styles */
 
 /* landing pagr */
@@ -110,9 +170,62 @@ color: var(--white-color);
 }
 /* ../land-home*/
 
+/* products */
+.btn-product{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.btn-product:hover{
+  color: var(--white-color);
+}
+.search-type-item {
+  cursor: pointer;
+  background-color: #f8f8f8;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+.search-type-item:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  opacity: 1;
+}
+.cart-car .card{
+  padding: 15px;
+}
+.counter-container {
+  font-size: 22px;
+  margin: 0 15px;
+}
 
+.decrement{
+ color: var(--main-color);
+ background-color: whitesmoke;
+}
 
-
+/* user */
+.gender{
+  text-decoration: none;
+  border: 1px solid #ccc !important;
+}
+.data-form{
+  border: 1px solid #ccc !important;
+  padding: 30px 15px 120px 15px;
+}
+.active-user{
+  background-color: #e9e8eb;
+  color: var(--main-color);
+  border-radius: 5px;
+}
+.active-order{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.active-order:hover{
+  color: var(--white-color);
+}
+.cart-branch-user{
+  background-color: #ccc;
+}
 /* footer */
 
 .footer .row {

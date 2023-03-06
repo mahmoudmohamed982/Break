@@ -53,5 +53,12 @@ $(document).ready(function () {
 function toggleForm(){
   document.body.classList.toggle('activeForm');
 }
-
-
+var data=0;
+function increment(){
+  data=data+1;
+  document.getElementById("root").innerText=data;
+}
+function decrement(){
+  data=data-1;
+  document.getElementById("root").innerText=data;
+}

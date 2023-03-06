@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- ../Required meta tags -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!--../ Bootstrap CSS -->
+
+  <!-- font  Poppins-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <!-- ../font  Poppins-->
+
+  <!-- font tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Tajawal:wght@700&display=swap"
+    rel="stylesheet">
+  <!--../font tajawal -->
+
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ../font awesome-->
+
+  <!-- --------css styles -------->
+  <!-- wow libaray css -->
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <!-- owl.carousel libaray css -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/test.css">
+  <!-- --------../css styles ------ -->
+
+  <title>Break</title>
+</head>
+
+<body>
+  <!-- landing padge -->
+  <header class="landing-header">
+    <!-- navbar -->
+    <nav class="bg-custom">
+      <div class="container nav-container">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <div class="logo">
+              <a href="index.html">BREAK</a>
+            </div>
+          </div>
+          <div class="col-6 d-flex align-items-baseline justify-content-end">
+            <div class="user mx-4">
+              <i class="fa-regular fa-user fa-lg"></i>
+            </div>
+
+            <div class="lang-select">
+              <select name="format" id="format">
+                <option id="select_en" value="en">En</option>
+                <option id="select_ar" value="ar">Ar</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ../navbar -->
+  </header>
+  <!-- land home -->
+    <!-- page breadcrumb -->
+    <section class="branch-breadcrumb">
+      <div class="container">
+        <nav aria-label="breadcrumb " >
+          <p data-i18n="custimizeBranchHeader">Select the branch from which you want to receive the order</p>
+          <ol class="breadcrumb" id="breadcrumbList">
+            <li class="breadcrumb-item mx-2"><a href="#" data-i18n="breadCrumbHome">Home</a></li>
+            <li class="breadcrumb-item " aria-current="page" data-i18n="breadCrumbBranch">branch</li>
+            <li class="breadcrumb-item active" aria-current="page" data-i18n="breadCrumbOrders">Orders</li>
+
+          </ol>
+        </nav>
+        
+      </div>
+      <div class="breadcrumb-overlay"></div>
+    </section>
+
+    <!-- ../land breadcrumb -->
+
+  <!-- ../land home -->
+
+  <!-- ../landing padge -->
+  <!-- advanced search -->
+  <section class="advanced-search mt-5">
+    <div class="container">
+
+      <div class="search-head-title   ">
+        <h5 class="mx-3 color-main " data-i18n="categories">categories</h5>
+      </div>
+
+
+      <div class="row my-5">
+
+        <div class="col-md-1 col-6">
+          <div class="search-type-item shadow-sm p-md-3 p-0 mb-md-0 mb-3 text-center">
+            <span data-i18n="all">All</span>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-6">
+          <div class="search-type-item shadow-sm  mb-md-0 mb-3 p-md-3 p-0 text-center">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <span class="mx-1" data-i18n="productCat">donuts </span>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="search-type-item shadow-sm p-md-3 p-0 mb-md-0 mb-3 text-center ">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <span class="mx-1" data-i18n="productCat">donuts </span>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-6">
+          <div class="search-type-item shadow-sm p-md-3 p-0 mb-md-0 mb-3 text-center ">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <span class="mx-1" data-i18n="productCat">donuts </span>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="search-type-item shadow-sm p-md-3 p-0 mb-md-0 mb-3 text-center ">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <span class="mx-1" data-i18n="productCat">donuts </span>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="search-type-item shadow-sm py-md-3 p-0 mb-md-0 mb-3 text-center ">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <span class="mx-1" data-i18n="productCat">donuts </span>
+          </div>
+        </div>
+
+        <div class="col-md-1 col-6">
+          <div class="search-type-item shadow-sm py-md-3 p-0 mb-md-0 mb-3 text-center ">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <span class="mx-1" data-i18n="productCat">donuts </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ../advanced search -->
+
+  <!-- products -->
+  <section class="products h-100vw">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row row-cols-md-2 row-cols-1 gy-4">
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="product-item">
+                <div class="card">
+                  <img src="assets/images/product.png" class="card-img-top" alt="product">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" data-i18n="productName">donats</h5>
+                    <p class="card-text" data-i18n="productText">Some quick example text to build on the card title and
+                      make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-product w-100">
+                      <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                      <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cart-car">
+            <div class="card">
+              <div class="d-flex cart-branch justify-content-between align-items-center my-3">
+                <div class="recieve">
+                  <i class="fa-solid fa-bag-shopping color-main fa-2xl" ></i> 
+                 <span class="mx-2 fs-5 opacity" data-i18n="recieveFrom">recieve from</span> 
+                </div>
+                <div class="dropdown">
+                  <a class="btn btn-sm dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="branchName">
+                    suadi - reyad
+                  </a>
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" data-i18n="branchName">suadi - reyad</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="cart-card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/images/product.png" class="img-fluid rounded-start h-100 w-100" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      
+                      <div class="d-flex justify-content-between">
+                        <p data-i18n="productName">product name</p>
+                        <p class="text-danger pointer" data-i18n="remove">remove</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between align-items-end">
+                        <p data-i18n="productPrice">50 SAR</p>
+                      <div class="d-flex justify-content-center align-items-center h-100 p-3">
+                        <button class="btn w25 bg-main increment" onclick="increment()"><i class="fa-solid fa-plus"></i></button>
+                        <span id="root" class="counter-container">0</span>
+                        <button class="btn w25 decrement" onclick="decrement()"><i class="fa-solid fa-minus"></i></button>
+
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart-card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/images/product.png" class="img-fluid rounded-start h-100 w-100" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      
+                      <div class="d-flex justify-content-between">
+                        <p data-i18n="productName">product name</p>
+                        <p class="text-danger pointer" data-i18n="remove">remove</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between align-items-end">
+                        <p data-i18n="productPrice">50 SAR</p>
+                      <div class="d-flex justify-content-center align-items-center h-100 p-3">
+                        <button class="btn w25 bg-main increment" onclick="increment()"><i class="fa-solid fa-plus"></i></button>
+                        <span id="root" class="counter-container">0</span>
+                        <button class="btn w25 decrement" onclick="decrement()"><i class="fa-solid fa-minus"></i></button>
+
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text"> <i class="fa-solid fa-fire "></i> </span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text bg-main pointer" data-i18n="completion">completion</span>
+
+              </div>
+              <p data-i18n="bill">Bill</p>
+              <div class="discount d-flex justify-content-between bg-gray align-items-center p-2">
+                <div data-i18n="discountText">discount percentage</div>
+                <div data-i18n="percentage">20%</div>
+              </div>
+              <div class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
+                <div data-i18n="totalText">Total</div>
+                <div data-i18n="totalAmount">20%</div>
+              </div>
+                <a href="#" class="text-dark mb-3 text-decoration-underline" data-i18n="addedTax">Including value added tax</a>
+                <div class="total d-flex justify-content-between bg-main  opacity align-items-center p-2 my-3 ">
+                  <div data-i18n="refundText">You have a refund </div>
+                  <div data-i18n="refundAmount">20 SAR</div>
+                </div>
+                <a href="#" class="btn btn-product w-100">
+                  <span class="mx-1" data-i18n="productPrice">7 reyal</span>
+                  <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+    <!-- ../products -->
+
+  <!-- Footer -->
+  <footer class="footer text-center text-lg-start py-4 bg-custom">
+    <!-- Section: Social media -->
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">by braa adnan</div>
+        <div class="col-md-4">© 2022 Copyright</div>
+        <div class="col-md-4 socail">
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- bootstrap js cdns -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery js cdns -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- owl.carousel js scripts -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <!-- WOW init -->
+  <script>
+    new WOW().init();
+  </script>
+
+  <!--custom js  -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/trans.js"></script>
+</body>
+
+</html>
