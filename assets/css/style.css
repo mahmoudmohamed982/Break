@@ -79,15 +79,19 @@ i {
   background-color: var(--main-color);
 color: var(--white-color);
 }
+.bg-main:hover{
+  color: var(--white-color);
+  background-color: var(--main-color);
+
+}
 .color-main{
   color: var(--main-color);
+  
 }
 .opacity{
   opacity: 0.8;
 }
-.bg-main:hover{
-  color: var(--white-color);
-}
+
 .h-100vw{
   height: 100vw;
 }
@@ -203,6 +207,8 @@ color: var(--white-color);
   background-color: #f8f8f8;
   opacity: 0.9;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
 .search-type-item:hover {
   background-color: var(--main-color);
