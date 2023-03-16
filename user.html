@@ -90,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mt-5">
-                    <div class="user-body data-form h-100 ">
+                    <div class="user-body  h-100 ">
                         <div class="row row-cols-1 ">
                             <div class="col">
                                 <div class="user-item active-user my-3 p-2 pointer">
@@ -120,12 +120,12 @@
                     </div>
 
                 </div>
-                <div class="col-md-8 orders data-form mt-5 ">
+                <div class="col-md-8 orders data-form mt-5 d-none">
 
                     <div class="discount bg-gray text-center p-3">
                         <div data-i18n="orderNumber">order #3232</div>
                     </div>
-                    <div class="row  row-cols-1 gy-2 mt-3">
+                    <div class="row  row-cols-1 gy-2 mt-3"> 
                         <div class="col">
                             <div class="product-item">
                                 <div class="card">
@@ -137,10 +137,10 @@
                                             make up the bulk of the card's content.</p>
                                     </div>
                                     <p class="text-center"> order data</p>
-                                    <div class="delivery-data">
+                                    <div class="delivery-data mx-3">
                                         <p>delivery data</p>
                                         <div class="reciver-branch bg-gray">
-                                            <p class=" ">reciver branch</p>
+                                            <p class="pt-2 mx-2 ">reciver branch</p>
                                             <div class="cart-branch-user p-2 my-3">
 
                                                 <div class="cart-branch-content d-flex align-items-center ">
@@ -154,36 +154,32 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row mb-3">
-                                            <div class="col-md-4">
+                                        <div class="row mb-3 ">
+                                            <div class="col-md-2">
                                                 <img src="assets/images/product.png"
-                                                    class="img-fluid rounded-start h-100 w-100" alt="">
+                                                    class="img-fluid rounded-start  w-100" alt="">
                                             </div>
-                                            <div class="col-md-8">
-                                                <div class="card-body">
+                                            <div class="col-md-10">
 
-                                                    <div class="d-flex justify-content-between align-items-center py-4">
+                                                    <div class="d-flex justify-content-between align-items-center py-2">
                                                         <div data-i18n="productName">product name</div>
                                                         <div data-i18n="productPrice">50 SAR</div>
                                                     </div>
 
-                                                </div>
                                             </div>
                                         </div>
-                                        <div class="row mb-3">
-                                            <div class="col-md-4">
+                                        <div class="row mb-3 ">
+                                            <div class="col-md-2">
                                                 <img src="assets/images/product.png"
-                                                    class="img-fluid rounded-start h-100 w-100" alt="">
+                                                    class="img-fluid rounded-start  w-100" alt="">
                                             </div>
-                                            <div class="col-md-8">
-                                                <div class="card-body">
+                                            <div class="col-md-10">
 
-                                                    <div class="d-flex justify-content-between align-items-center py-4">
+                                                    <div class="d-flex justify-content-between align-items-center py-2">
                                                         <div data-i18n="productName">product name</div>
                                                         <div data-i18n="productPrice">50 SAR</div>
                                                     </div>
 
-                                                </div>
                                             </div>
                                         </div>
                                         <div
@@ -192,9 +188,22 @@
                                             <div data-i18n="percentage">20%</div>
                                         </div>
                                         <div
-                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
+                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 my-3">
                                             <div data-i18n="totalText">Total</div>
                                             <div data-i18n="totalAmount">20%</div>
+                                        </div>
+                                        <div class="reciver-branch bg-gray">
+                                            <p class="pt-2 mx-2 ">payment method</p>
+                                            <div class="cart-branch-user p-2 my-3">
+
+                                                <div class="input-group align-items-center">
+                                                    <div class="input-group-text">
+                                                        <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                                      </div>
+                                                    <span class="mx-3">Online payment</span>
+
+                                                  </div>
+                                            </div>
                                         </div>
                                         <button class="text-center btn btn-outline-danger my-3 w-100 "> Being processed <i
                                                 class="fa-solid fa-list-check"></i></button>
@@ -208,152 +217,100 @@
 
 
 
-                <div class="col-md-8 orders data-form mt-5 d-none">
+                <div class="col-md-8 orders data-form mt-5 ">
                     <div class="row row-cols-md-2 ">
-                        <div class="col">
-                            <button class="btn color-main w-100 active-order p-3">
-                                <i class="fa-solid fa-table-list"></i>
-                                <span class="mx-2">Order history</span>
-                            </button>
-                        </div>
+
                         <div class="col">
                             <button class="btn color-main w-100 p-3 ">
                                 <i class="fa-solid fa-table-list"></i>
                                 <span class="mx-2">New Order</span>
                             </button>
                         </div>
-                    </div>
-                    <div class="row row-cols-md-2 mt-3">
                         <div class="col">
-                            <div class="product-item">
-                                <div class="card">
-                                    <img src="assets/images/product.png" class="card-img-top" alt="product">
-                                    <div class="card-img-overlay">
-                                        <h5
-                                            class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
-                                            2023-2-2</h5>
-                                    </div>
-
-                                    <div class="card-body text-center">
-                                        <div
-                                            class="discount d-flex justify-content-between bg-gray align-items-center p-2">
-                                            <div data-i18n="discountText">discount percentage</div>
-                                            <div data-i18n="percentage">20%</div>
-                                        </div>
-                                        <div
-                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
-                                            <div data-i18n="totalText">Total</div>
-                                            <div data-i18n="totalAmount">20%</div>
-                                        </div>
-                                        <a href="#" class="text-dark  text-decoration-underline text-center"
-                                            data-i18n="viewDetails">view details</a>
-
-                                        <a href="#" class="btn btn-product w-100">
-                                            <span class="mx-1" data-i18n="recieveFromBranch">recieve from branch</span>
-                                            <img src="assets/images/sal-i.png" alt="" class="w-20px">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="product-item">
-                                <div class="card">
-                                    <img src="assets/images/product.png" class="card-img-top" alt="product">
-                                    <div class="card-img-overlay">
-                                        <h5
-                                            class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
-                                            2023-2-2</h5>
-                                    </div>
-
-                                    <div class="card-body text-center">
-                                        <div
-                                            class="discount d-flex justify-content-between bg-gray align-items-center p-2">
-                                            <div data-i18n="discountText">discount percentage</div>
-                                            <div data-i18n="percentage">20%</div>
-                                        </div>
-                                        <div
-                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
-                                            <div data-i18n="totalText">Total</div>
-                                            <div data-i18n="totalAmount">20%</div>
-                                        </div>
-                                        <a href="#" class="text-dark  text-decoration-underline text-center"
-                                            data-i18n="viewDetails">view details</a>
-
-                                        <a href="#" class="btn btn-product w-100">
-                                            <span class="mx-1" data-i18n="recieveFromBranch">recieve from branch</span>
-                                            <img src="assets/images/sal-i.png" alt="" class="w-20px">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="product-item">
-                                <div class="card">
-                                    <img src="assets/images/product.png" class="card-img-top" alt="product">
-                                    <div class="card-img-overlay">
-                                        <h5
-                                            class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
-                                            2023-2-2</h5>
-                                    </div>
-
-                                    <div class="card-body text-center">
-                                        <div
-                                            class="discount d-flex justify-content-between bg-gray align-items-center p-2">
-                                            <div data-i18n="discountText">discount percentage</div>
-                                            <div data-i18n="percentage">20%</div>
-                                        </div>
-                                        <div
-                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
-                                            <div data-i18n="totalText">Total</div>
-                                            <div data-i18n="totalAmount">20%</div>
-                                        </div>
-                                        <a href="#" class="text-dark  text-decoration-underline text-center"
-                                            data-i18n="viewDetails">view details</a>
-
-                                        <a href="#" class="btn btn-product w-100">
-                                            <span class="mx-1" data-i18n="recieveFromBranch">recieve from branch</span>
-                                            <img src="assets/images/sal-i.png" alt="" class="w-20px">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="product-item">
-                                <div class="card">
-                                    <img src="assets/images/product.png" class="card-img-top" alt="product">
-                                    <div class="card-img-overlay">
-                                        <h5
-                                            class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
-                                            2023-2-2</h5>
-                                    </div>
-
-                                    <div class="card-body text-center">
-                                        <div
-                                            class="discount d-flex justify-content-between bg-gray align-items-center p-2">
-                                            <div data-i18n="discountText">discount percentage</div>
-                                            <div data-i18n="percentage">20%</div>
-                                        </div>
-                                        <div
-                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
-                                            <div data-i18n="totalText">Total</div>
-                                            <div data-i18n="totalAmount">20%</div>
-                                        </div>
-                                        <a href="#" class="text-dark  text-decoration-underline text-center"
-                                            data-i18n="viewDetails">view details</a>
-
-                                        <a href="#" class="btn btn-product w-100">
-                                            <span class="mx-1" data-i18n="recieveFromBranch">recieve from branch</span>
-                                            <img src="assets/images/sal-i.png" alt="" class="w-20px">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            <button class="btn color-main w-100 active-order p-3">
+                                <i class="fa-solid fa-table-list"></i>
+                                <span class="mx-2">Order history</span>
+                            </button>
                         </div>
                     </div>
+                    <div class="row row-cols-md-2 mt-3 " id="NewOrders">
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="card">
+                                    <div class="item-img position-relative">
+                                        <img src="assets/images/product.png" class="card-img-top" alt="product">
+                                        <div class="card-img-overlay">
+                                            <span
+                                                class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
+                                                2023-2-2</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body text-center">
+                                        <div
+                                            class="discount d-flex justify-content-between bg-gray align-items-center p-2">
+                                            <div data-i18n="discountText">discount percentage</div>
+                                            <div data-i18n="percentage">20%</div>
+                                        </div>
+                                        <div
+                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
+                                            <div data-i18n="totalText">Total</div>
+                                            <div data-i18n="totalAmount">20%</div>
+                                        </div>
+                                        <a href="#" class="text-dark  text-decoration-underline text-center"
+                                            data-i18n="viewDetails">view details</a>
+
+                                        <button class="btn btn-product w-100 mt-3">
+                                            <span class="mx-1" data-i18n="recieveFromBranch">recieve from branch</span>
+                                            <img src="assets/images/sal-i.png" alt="" class="w-20px">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row row-cols-md-2 mt-3 d-none" id="OrderHistory">
+                        <div class="col">
+                            <div class="product-item">
+                                <div class="card">
+                                    <div class="item-img position-relative">
+                                        <img src="assets/images/product.png" class="card-img-top" alt="product">
+                                        <div class="card-img-overlay">
+                                            <span
+                                                class="card-title shadow-sm bg-body p-2 color-main w-25 left rounded text-center">
+                                                2023-2-2</span>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="card-body text-center">
+                                        <div
+                                            class="discount d-flex justify-content-between bg-gray align-items-center p-2">
+                                            <div data-i18n="discountText">discount percentage</div>
+                                            <div data-i18n="percentage">20%</div>
+                                        </div>
+                                        <div
+                                            class="total d-flex justify-content-between bg-gray align-items-center p-2 mt-3">
+                                            <div data-i18n="totalText">Total</div>
+                                            <div data-i18n="totalAmount">20%</div>
+                                        </div>
+                                        <a href="#" class="text-dark  text-decoration-underline text-center"
+                                            data-i18n="viewDetails">view details</a>
+
+                                        <button class="btn btn-outline-success w-100 mt-3">
+                                            <span class="mx-1" >recieved</span>
+                                            <i class="fa-solid fa-calendar-check"></i>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+ 
+
                 </div>
 
 
@@ -386,6 +343,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!--../ user -->
     <!-- Footer -->
