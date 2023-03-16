@@ -93,19 +93,19 @@
                     <div class="user-body  h-100 ">
                         <div class="row row-cols-1 ">
                             <div class="col">
-                                <div class="user-item active-user my-3 p-2 pointer">
+                                <div class="user-link user-item active-user my-3 p-2 pointer" id="myDataLink"   onclick="toggleProfile()">
                                     <i class="fa-solid fa-circle-user fa-xl"></i>
                                     <span class="mx-2">my data</span>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="orders-item  my-3 p-2 pointer">
+                                <div class="user-link orders-item  my-3 p-2 pointer"   id="myOrdersLink" onclick="toggleMyOrders()">
                                     <i class="fa-solid fa-calendar-days fa-xl"></i>
                                     <span class="mx-2">my orders</span>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="cash-item  my-3 p-2 pointer">
+                                <div class="user-link cash-item  my-3 p-2 pointer" id="cashBackLink" onclick="toggleCashBack()">
                                     <i class="fa-solid fa-cash-register fa-xl"></i>
                                     <span class="mx-2">cash back</span>
                                 </div>
@@ -120,7 +120,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-8 orders data-form mt-5 d-none">
+
+                <div class="links-content col-md-8 orders data-form mt-5 " id="cashBack">
 
                     <div class="discount bg-gray text-center p-3">
                         <div data-i18n="orderNumber">order #3232</div>
@@ -214,20 +215,17 @@
                     </div>
                 </div>
 
-
-
-
-                <div class="col-md-8 orders data-form mt-5 ">
+                <div class="links-content col-md-8 orders data-form mt-5 d-none " id="myOrders" >
                     <div class="row row-cols-md-2 ">
 
                         <div class="col">
-                            <button class="btn color-main w-100 p-3 ">
+                            <button class="btn color-main w-100 p-3 " onclick="newOrders()" id="NewOrdersBtn">
                                 <i class="fa-solid fa-table-list"></i>
                                 <span class="mx-2">New Order</span>
                             </button>
                         </div>
                         <div class="col">
-                            <button class="btn color-main w-100 active-order p-3">
+                            <button class="btn color-main w-100 active-order p-3" onclick="ordersHistory()" id="OrderHistoryBtn">
                                 <i class="fa-solid fa-table-list"></i>
                                 <span class="mx-2">Order history</span>
                             </button>
@@ -313,9 +311,10 @@
 
                 </div>
 
+            </div>
 
 
-                <div class="col-md-8  data-form mt-5 d-none">
+                <div class="links-content col-md-8  data-form mt-5 d-none" id="myData">
                     <div class="row g-3 row-cols-md-2 row-cols-1 ">
                         <div class="col">
                             <label for="name" class="form-label">name</label>
@@ -341,7 +340,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     </div>
