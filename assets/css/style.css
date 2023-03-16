@@ -124,6 +124,23 @@ display: none;
   z-index: 2;
   
   }
+  .btn-check:active+.btn-outline-danger, .btn-check:checked+.btn-outline-danger, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show, .btn-outline-danger:active {
+    color: #fff;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+  }
+  .btn-outline-danger {
+    color: #000;
+    border-color: #f8f8f8;
+  }
+  .btn-outline-danger:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+  }
+  .btn-outline-danger:hover .card-title{
+    color: #fff;
+
+  }
 /* ../general tags styles */
 
 /* landing pagr */
@@ -223,8 +240,9 @@ color: var(--white-color);
 .active-order:hover{
   color: var(--white-color);
 }
-.cart-branch-user{
-  background-color: #ccc;
+.cart-branch-content  {
+  background-color: #f0f0f0;
+  padding: 10px;
 }
 /* footer */
 
