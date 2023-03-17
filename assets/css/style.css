@@ -2,8 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
 
+}
+html{
+  height: 100%;
+}
 :root {
   --white-color: white;
   --main-color: #212045;
@@ -14,6 +17,10 @@
 body {
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
+  position: relative;
+  box-sizing: inherit;
+  min-height: 100%;
+  padding-bottom: 6rem;
 }
 
 /* general tags styles */
@@ -86,7 +93,9 @@ color: var(--white-color);
 }
 .color-main{
   color: var(--main-color);
-  
+}
+.color-main:hover{
+  color: var(--main-color);
 }
 .opacity{
   opacity: 0.8;
@@ -254,7 +263,12 @@ color: var(--white-color);
   padding: 10px;
 }
 /* footer */
-
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 .footer .row {
   opacity: 0.8;
 }
