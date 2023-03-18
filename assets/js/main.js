@@ -1,3 +1,9 @@
+
+
+function toggleSearch(){
+  document.getElementById("searchInput").classList.toggle('d-none');
+}
+
 function toggleProfile() {
   
   document.getElementById("myOrdersLink").classList.remove('active-user');
