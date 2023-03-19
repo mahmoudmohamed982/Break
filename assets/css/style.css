@@ -101,9 +101,7 @@ color: var(--white-color) !important;
   opacity: 0.8;
 }
 
-.h-100vw{
-  height: 100vw;
-}
+
 .branch-breadcrumb{
   height: 20vh;
   width: 100%;
@@ -300,7 +298,9 @@ color: var(--white-color);
 
 /*all media query */
 @media (max-width: 776px) {
-
+  .land-home {
+    background-position: 60% 50%;
+}
 
 }
 
