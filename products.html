@@ -24,6 +24,8 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
   <!-- ../font awesome-->
+  <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+  <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   <!-- --------css styles -------->
   <!-- wow libaray css -->
   <link rel="stylesheet" href="assets/css/animate.css">
@@ -393,7 +395,13 @@
         <div class="modal-body">
           <p>login or register</p>
 
-          <div class="input-group mb-3">
+          <div class="w-100 phone-input my-2">
+            <input class="form-control " name="phone" type="text" id="phone"/> 
+
+          </div>
+
+
+          <!-- <div class="input-group mb-3">
             <select class="form-select" id="inputGroupSelect01">
               <option data-countryCode="DZ" value="213">Algeria (+213)</option>
               <option data-countryCode="AD" value="376">Andorra (+376)</option>
@@ -405,7 +413,7 @@
             </select>
             <label class="input-group-text" for="inputGroupSelect01">+966 <img src="assets/images/saudi-arabia.png" alt="" width="20px"></label>
 
-          </div>
+          </div> -->
 
 
 
@@ -662,6 +670,15 @@
   <script>
     new WOW().init();
   </script>
+          <script>
+            var input = document.querySelector("#phone");
+            window.intlTelInput(input, {
+                separateDialCode: true,
+                excludeCountries: ["in", "il"],
+                preferredCountries: ["ru", "jp", "pk", "no"]
+            });
+        </script>
+
   <!--custom js  -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/trans.js"></script>

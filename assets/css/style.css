@@ -291,13 +291,16 @@ color: var(--white-color);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.iti {
+  width: 100%;
+}
 /*../ footer */
 
 
 
 /*all media query */
 @media (max-width: 776px) {
+
 
 }
 
