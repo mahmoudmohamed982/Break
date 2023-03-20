@@ -287,6 +287,8 @@ color: var(--white-color);
   background-image:url(../images/product.png) ;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
 }
 .iti {
   width: 100%;
